@@ -1,9 +1,9 @@
-const express = require("express");
+oconst express = require("express");
 const app = express();
 
 app.get("/aluno", (req, res )=> {
     let usuario = {
-                    nome: "Claudio Nunes",
+                    nome: "Renato Nunes",
                     disciplina : "Topicos Especiais",
                     curso : "ADS"
     }
